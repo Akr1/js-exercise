@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <script>
+    // Your JavaScript goes here!
+    function add7(number) {
+      return Number(number) + 7
+    }
+    function multiply(operand1, operand2) {
+      return operand1 * operand2
+    }
+    function captalize(someString) {
+      let firstLetter = someString.charAt(0).toUpperCase();
+      let stringRemainder = someString.slice(1);
+      return firstLetter + stringRemainder
+    }
+    function lastLetter(someString) {
+      let endingChar = someString.charAt(someString.length - 1);
+      return endingChar
+    }
+    console.log(add7(3))
+    console.log(multiply(2, 5))
+    console.log(captalize("word"))
+    console.log(lastLetter("word"))
+  </script>
+</body>
+
+</html>
